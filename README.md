@@ -55,3 +55,6 @@ Edit the `config.py` file to point to the correct `.cti` driver path on your mac
 import os
 HIKROBOT_BIN = r'C:\Program Files (x86)\Common Files\MVS\Runtime\Win64_x64'
 HIKROBOT_CTI = os.path.join(HIKROBOT_BIN, 'MvProducerGEV.cti')
+```
+## Publication
+Read the official article detailing this project's architecture on the [SEAMK Journal](https://urn.fi/URN:NBN:fi-fe2026060261012).
